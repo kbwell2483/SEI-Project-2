@@ -1,0 +1,50 @@
+* {
+  font-family: 'Josefin Slab', serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  background-color: pink; 
+  opacity: 0.8;
+  font-family: 'Josefin Slab', serif;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-evenly; 
+  font-size: 200px;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+}
+
+.header {
+  font-family: 'Sacramento', cursive;
+}
+
+.body {
+  background-image: url('https://i.imgur.com/RqOoJz1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.thumbnails {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px; 
+    column-gap: 225px;
+    row-gap: 125px;
+    font-family: 'Josefin Slab', serif;
+  }
+
+.images-show {
+  font-family: 'Josefin Slab', serif;
+}
+
+
+ 
